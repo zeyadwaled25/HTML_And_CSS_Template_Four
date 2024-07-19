@@ -1229,6 +1229,15 @@ ul {
 .page-files .files-stats {
   min-width: 260px;
 }
+@media (max-width: 767px) {
+  .page-files {
+    flex-direction: column-reverse;
+  }
+  .page-files .files-stats {
+    max-width: 100%;
+    margin: 10px;
+  }
+}
 .page-files .files-stats .details {
   border: var(--border-eee);
 }
