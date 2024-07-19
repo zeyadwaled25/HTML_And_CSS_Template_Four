@@ -1029,6 +1029,11 @@ ul {
   margin-top: 15px;
   border-top: var(--border-eee);
 }
+@media (max-width: 767px) {
+  .project .box .price {
+    flex-direction: column;
+  }
+}
 .project .box .price .progress {
   width: 250px;
   height: 8px;
