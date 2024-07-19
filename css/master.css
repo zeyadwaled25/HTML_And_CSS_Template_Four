@@ -1226,6 +1226,9 @@ ul {
     margin-right: 10px;
   }
 }
+.page-files {
+  align-items: flex-start;
+}
 .page-files .files-stats {
   min-width: 260px;
 }
