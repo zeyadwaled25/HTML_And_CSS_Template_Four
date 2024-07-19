@@ -1033,6 +1033,9 @@ ul {
   .project .box .price {
     flex-direction: column;
   }
+  .project .box .price .progress {
+    margin-bottom: 10px;
+  }
 }
 .project .box .price .progress {
   width: 250px;
