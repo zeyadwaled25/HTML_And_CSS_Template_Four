@@ -1235,6 +1235,7 @@ ul {
 @media (max-width: 767px) {
   .page-files {
     flex-direction: column-reverse;
+    align-items: normal;
   }
   .page-files .files-stats {
     max-width: 100%;
